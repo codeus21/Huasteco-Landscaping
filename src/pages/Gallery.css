@@ -13,7 +13,7 @@
   text-align: center;
   padding: 3rem 0;
   background: var(--gradient-primary);
-  color: var(--color-text-primary);
+  color: var(--color-text-on-primary);
   border-radius: 10px;
   margin-bottom: 3rem;
 }
@@ -21,11 +21,13 @@
 .gallery-hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: var(--color-text-on-primary);
 }
 
 .gallery-hero p {
   font-size: 1.2rem;
-  opacity: 0.9;
+  opacity: 0.95;
+  color: var(--color-text-on-primary);
 }
 
 .gallery-filters {
@@ -50,7 +52,7 @@
 .filter-btn:hover,
 .filter-btn.active {
   background: var(--color-primary);
-  color: var(--color-text-primary);
+  color: var(--color-text-on-primary);
   border-color: var(--color-primary);
 }
 
@@ -77,25 +79,19 @@
 .gallery-image {
   height: 250px;
   background: var(--color-bg-primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
 }
 
-.placeholder-image {
-  text-align: center;
-  color: var(--color-text-secondary);
+.gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
 }
 
-.placeholder-image span {
-  font-size: 3rem;
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.placeholder-image p {
-  font-size: 1rem;
-  margin: 0;
+.gallery-item:hover .gallery-image img {
+  transform: scale(1.05);
 }
 
 .gallery-info {

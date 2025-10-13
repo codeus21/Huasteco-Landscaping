@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import huastecoLogo from '../assets/Logos/HuastecoLogo.jpg';
 import './Header.css';
 
 const Header = () => {
@@ -25,13 +26,13 @@ const Header = () => {
         <div className="header-top">
           <div className="logo">
             <Link to="/" onClick={closeMenu}>
-              <img src="https://via.placeholder.com/200x80/1A202C/FFFFFF?text=Your+Logo" alt="Company Logo" className="logo-image" />
+              <img src={huastecoLogo} alt="Huasteco Landscape & Lawncare LLC" className="logo-image" />
             </Link>
           </div>
           
           <div className="call-section">
             <span className="call-text">Call:</span>
-            <a href="tel:5555555555" className="call-number">(555) 555-5555</a>
+            <a href="tel:7068098741" className="call-number">(706) 809-8741</a>
           </div>
           
           {/* Mobile menu button */}
@@ -66,9 +67,9 @@ const Header = () => {
                   onMouseEnter={() => setIsServicesDropdownOpen(true)}
                   onMouseLeave={() => setIsServicesDropdownOpen(false)}>
                 <li><Link to="/services" className="dropdown-link" onClick={closeMenu}>All Services</Link></li>
-                <li><Link to="/service1" className="dropdown-link" onClick={closeMenu}>Service One</Link></li>
-                <li><Link to="/service2" className="dropdown-link" onClick={closeMenu}>Service Two</Link></li>
-                <li><Link to="/service3" className="dropdown-link" onClick={closeMenu}>Service Three</Link></li>
+                <li><Link to="/service1" className="dropdown-link" onClick={closeMenu}>Lawn Care & Maintenance</Link></li>
+                <li><Link to="/service2" className="dropdown-link" onClick={closeMenu}>Landscape Design & Installation</Link></li>
+                <li><Link to="/service3" className="dropdown-link" onClick={closeMenu}>Hardscaping & Outdoor Features</Link></li>
               </ul>
             </li>
             <li><Link to="/gallery" className="nav-link" onClick={closeMenu}>Gallery</Link></li>

@@ -1,119 +1,120 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import cleanup1 from '../assets/Gallery/Cleanup1.webp';
 import './ServicePage.css';
 
 const Service3 = () => {
   return (
     <>
       <Helmet>
-        <title>Service Three | Your Company</title>
-        <meta name="description" content="Professional service for protection, enhancement, and improved aesthetics. Expert implementation with premium materials and warranty." />
-        <meta name="keywords" content="professional service, protection, enhancement, quality service" />
-        <meta property="og:title" content="Service Three | Your Company" />
-        <meta property="og:description" content="Professional service for protection and enhancement." />
+        <title>Hardscaping & Outdoor Features | Huasteco Landscape & Lawncare</title>
+        <meta name="description" content="Professional hardscaping services including patios, walkways, retaining walls, and outdoor living spaces. Expert installation with quality materials." />
+        <meta name="keywords" content="hardscaping, patios, walkways, retaining walls, outdoor living, landscaping" />
+        <meta property="og:title" content="Hardscaping & Outdoor Features | Huasteco Landscape & Lawncare" />
+        <meta property="og:description" content="Professional hardscaping and outdoor feature installation services." />
         <meta property="og:type" content="website" />
       </Helmet>
       
       <div className="service-page">
         <div className="service-hero">
           <div className="service-hero-background">
-            <img src="https://via.placeholder.com/1920x600/6A7788/FFFFFF?text=Service+Three" alt="Service Three" />
+            <img src={cleanup1} alt="Hardscaping & Outdoor Features" />
           </div>
           <div className="service-hero-overlay"></div>
           <div className="service-hero-content">
-            <h1>Service Three</h1>
-            <p>Professional service for protection, enhancement, and improved aesthetics</p>
+            <h1>Hardscaping & Outdoor Features</h1>
+            <p>Create stunning outdoor living spaces with professional hardscaping</p>
           </div>
         </div>
 
         <div className="container">
           <section className="service-overview">
-            <h2>Protect and Enhance</h2>
+            <h2>Transform Your Outdoor Living Space</h2>
             <p>
-              Our professional service provides more than just aesthetics. We use premium materials 
-              that offer superior protection, enhanced performance, and give you a polished, 
-              professional result. All work comes with our comprehensive warranty.
+              Our professional hardscaping services provide both beauty and functionality to your outdoor space. 
+              We use premium materials and expert craftsmanship to create stunning patios, walkways, retaining walls, 
+              and outdoor living areas that enhance your property's value and create inviting spaces for entertainment and relaxation.
             </p>
           </section>
 
           <section className="service-features">
-            <h2>Service Benefits</h2>
+            <h2>Hardscaping Services</h2>
             <div className="features-grid">
               <div className="feature-item">
-                <h3>Protection</h3>
-                <p>Superior protection to safeguard and preserve your investment.</p>
+                <h3>Patios & Outdoor Living</h3>
+                <p>Custom patios and outdoor living spaces perfect for entertaining and relaxation.</p>
               </div>
               <div className="feature-item">
-                <h3>Performance Enhancement</h3>
-                <p>Improved performance and efficiency for better results.</p>
+                <h3>Walkways & Paths</h3>
+                <p>Beautiful walkways and garden paths using pavers, stone, or decorative concrete.</p>
               </div>
               <div className="feature-item">
-                <h3>Privacy & Security</h3>
-                <p>Enhanced privacy and security for peace of mind.</p>
+                <h3>Retaining Walls</h3>
+                <p>Functional and attractive retaining walls to manage slopes and create level areas.</p>
               </div>
               <div className="feature-item">
-                <h3>Long-term Value</h3>
-                <p>Prevent degradation and maintain quality over time.</p>
+                <h3>Fire Pits & Features</h3>
+                <p>Custom fire pits and outdoor fireplaces to extend your outdoor season.</p>
               </div>
               <div className="feature-item">
-                <h3>Improved Comfort</h3>
-                <p>Enhanced comfort and usability in all conditions.</p>
+                <h3>Outdoor Kitchens</h3>
+                <p>Complete outdoor kitchen installations for the ultimate entertaining experience.</p>
               </div>
               <div className="feature-item">
-                <h3>Cost Savings</h3>
-                <p>Reduce operational costs and improve overall efficiency.</p>
+                <h3>Water Features</h3>
+                <p>Ponds, fountains, and waterfalls to add tranquility and visual interest.</p>
               </div>
             </div>
           </section>
 
           <section className="service-benefits">
-            <h2>Why Choose Us?</h2>
+            <h2>Why Choose Huasteco for Hardscaping?</h2>
             <div className="benefits-list">
               <div className="benefit-item">
-                <h3>Premium Materials</h3>
-                <p>We use only the highest quality materials with superior performance and durability.</p>
+                <h3>Quality Materials</h3>
+                <p>We use only premium pavers, stone, and materials for lasting beauty and durability.</p>
               </div>
               <div className="benefit-item">
-                <h3>Expert Implementation</h3>
-                <p>Professional service by experienced professionals with attention to detail.</p>
+                <h3>Expert Craftsmanship</h3>
+                <p>Skilled hardscape professionals with years of experience and attention to detail.</p>
               </div>
               <div className="benefit-item">
-                <h3>Comprehensive Warranty</h3>
-                <p>All our work comes with a comprehensive warranty for your peace of mind.</p>
+                <h3>Custom Designs</h3>
+                <p>Every hardscape project is uniquely designed to complement your home and landscape.</p>
               </div>
               <div className="benefit-item">
-                <h3>Quality Compliance</h3>
-                <p>We ensure all work meets industry standards and requirements.</p>
+                <h3>Proper Installation</h3>
+                <p>Correct base preparation and installation techniques ensure your hardscape lasts for decades.</p>
               </div>
             </div>
           </section>
 
           <section className="tint-options">
-            <h2>Available Options</h2>
+            <h2>Popular Hardscaping Materials</h2>
             <div className="options-grid">
               <div className="option-item">
-                <h3>Premium Option</h3>
-                <p>Superior performance and maximum protection with excellent results.</p>
+                <h3>Natural Stone</h3>
+                <p>Timeless elegance with flagstone, slate, and bluestone for premium outdoor spaces.</p>
               </div>
               <div className="option-item">
-                <h3>Standard Option</h3>
-                <p>Excellent quality and reliability with professional appearance.</p>
+                <h3>Pavers</h3>
+                <p>Versatile concrete and clay pavers in various colors, patterns, and styles.</p>
               </div>
               <div className="option-item">
-                <h3>Enhanced Option</h3>
-                <p>Strong performance with added features for extra protection.</p>
+                <h3>Decorative Concrete</h3>
+                <p>Stamped and colored concrete for cost-effective beauty and durability.</p>
               </div>
               <div className="option-item">
-                <h3>Basic Option</h3>
-                <p>Affordable choice with good quality and reliable performance.</p>
+                <h3>Brick</h3>
+                <p>Classic brick hardscaping for traditional charm and lasting appeal.</p>
               </div>
             </div>
           </section>
 
           <section className="service-cta">
-            <h2>Ready to Get Started?</h2>
-            <p>Get a free consultation and see how our service can benefit you.</p>
+            <h2>Ready to Create Your Dream Outdoor Space?</h2>
+            <p>Contact us for a free hardscaping consultation and transform your property today.</p>
             <div className="cta-buttons">
               <Link to="/contact" className="cta-button primary">Get Free Quote</Link>
               <Link to="/services" className="cta-button secondary">View All Services</Link>

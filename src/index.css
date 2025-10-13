@@ -5,44 +5,46 @@
 */
 
 :root {
-  /* Primary Brand Colors */
-  --color-primary: #ff0000;           /* Main brand color (red) */
-  --color-primary-dark: #cc0000;      /* Darker shade for hovers */
-  --color-primary-light: #ff3333;     /* Lighter shade for accents */
-  --color-primary-pale: #ffcccc;      /* Very light shade */
+  /* Primary Brand Colors - Green theme for landscaping */
+  --color-primary: #2d7a3e;           /* Main brand color (forest green) */
+  --color-primary-dark: #1f5c2e;      /* Darker shade for hovers */
+  --color-primary-light: #3d9a51;     /* Lighter shade for accents */
+  --color-primary-pale: #d4edda;      /* Very light shade */
   
-  /* Background Colors */
-  --color-bg-primary: #000000;        /* Main background (black) */
-  --color-bg-secondary: #333333;      /* Secondary background (dark gray) */
-  --color-bg-tertiary: #111111;       /* Tertiary background */
-  --color-bg-card: #1a1a1a;           /* Card backgrounds */
+  /* Background Colors - White and light theme */
+  --color-bg-primary: #ffffff;        /* Main background (white) */
+  --color-bg-secondary: #f8f9fa;      /* Secondary background (light gray) */
+  --color-bg-tertiary: #e9ecef;       /* Tertiary background */
+  --color-bg-card: #ffffff;           /* Card backgrounds */
   
-  /* Text Colors */
-  --color-text-primary: #ffffff;      /* Main text color */
-  --color-text-secondary: #cccccc;    /* Secondary text */
-  --color-text-tertiary: #999999;     /* Tertiary text (muted) */
-  --color-text-muted: #666666;        /* Very muted text */
+  /* Text Colors - Dark text on light backgrounds */
+  --color-text-primary: #212529;      /* Main text color (dark) */
+  --color-text-secondary: #495057;    /* Secondary text */
+  --color-text-tertiary: #6c757d;     /* Tertiary text (muted) */
+  --color-text-muted: #adb5bd;        /* Very muted text */
+  --color-text-on-primary: #ffffff;   /* White text for colored backgrounds */
   
   /* Border Colors */
-  --color-border-primary: #333333;    /* Main border color */
-  --color-border-secondary: #666666;  /* Secondary borders */
+  --color-border-primary: #dee2e6;    /* Main border color */
+  --color-border-secondary: #e9ecef;  /* Secondary borders */
   
   /* Accent Colors */
   --color-accent-gold: #ffd700;       /* Gold for stars, etc. */
+  --color-accent-orange: #ff8c42;     /* Orange accent from logo */
   
   /* Opacity Values */
-  --opacity-overlay: 0.6;             /* Overlay darkness */
-  --opacity-hover: 0.8;               /* Hover states */
+  --opacity-overlay: 0.5;             /* Overlay darkness */
+  --opacity-hover: 0.9;               /* Hover states */
   
   /* Shadow Colors */
-  --shadow-primary: rgba(255, 0, 0, 0.3);
-  --shadow-primary-strong: rgba(255, 0, 0, 0.4);
-  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --shadow-primary: rgba(45, 122, 62, 0.2);
+  --shadow-primary-strong: rgba(45, 122, 62, 0.3);
+  --shadow-dark: rgba(0, 0, 0, 0.15);
   
   /* Gradient Backgrounds */
   --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-  --gradient-card: linear-gradient(135deg, rgba(255, 0, 0, 0.15) 0%, rgba(20, 20, 20, 0.95) 50%, rgba(255, 0, 0, 0.05) 100%);
-  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  --gradient-card: linear-gradient(135deg, rgba(45, 122, 62, 0.05) 0%, rgba(255, 255, 255, 0.95) 50%, rgba(45, 122, 62, 0.03) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(45, 122, 62, 0.1), transparent);
 }
 
 /* ==========================================
@@ -56,7 +58,7 @@
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Poppins', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
   color: var(--color-text-primary);
   background-color: var(--color-bg-primary);

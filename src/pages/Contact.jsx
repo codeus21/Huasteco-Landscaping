@@ -27,27 +27,27 @@ const Contact = () => {
     <div className="contact">
       <div className="container">
         <section className="contact-hero">
-          <h1>Contact Us</h1>
-          <p>Get in touch with us for any questions or to schedule a consultation</p>
+          <h1>Contact Huasteco Landscape & Lawncare</h1>
+          <p>Get in touch with us for a free quote or to schedule your landscaping consultation</p>
         </section>
         
         <section className="contact-content">
           <div className="contact-info">
             <div className="contact-item">
               <h3>📞 Phone</h3>
-              <p>(555) 555-5555</p>
+              <p>(706) 809-8741</p>
             </div>
             <div className="contact-item">
-              <h3>📍 Address</h3>
-              <p>123 Main Street<br />Your City, ST 12345</p>
+              <h3>📍 Service Area</h3>
+              <p>Douglasville &<br />Surrounding Cities</p>
             </div>
             <div className="contact-item">
               <h3>🕒 Hours</h3>
-              <p>Monday - Friday: 9:00 AM - 5:00 PM<br />Saturday: 10:00 AM - 3:00 PM<br />Sunday: Closed</p>
+              <p>Monday - Saturday: 7:00 AM - 7:00 PM<br />Sunday: 9:00 AM - 5:00 PM</p>
             </div>
             <div className="contact-item">
               <h3>📱 Follow Us</h3>
-              <p><a href="https://facebook.com/yourcompany" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+              <p><a href="https://facebook.com/huastecolandscape" target="_blank" rel="noopener noreferrer">Facebook</a></p>
             </div>
           </div>
           

@@ -1,96 +1,98 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import lawnMowed1 from '../assets/Gallery/LawnMowed1.webp';
 import './ServicePage.css';
 
 const Service1 = () => {
   return (
     <>
       <Helmet>
-        <title>Service One | Your Company</title>
-        <meta name="description" content="Professional service offering tailored to your needs. Expert service by certified professionals." />
-        <meta name="keywords" content="service, professional service, quality service" />
-        <meta property="og:title" content="Service One | Your Company" />
-        <meta property="og:description" content="Professional service offering tailored to your needs." />
+        <title>Lawn Care & Maintenance | Huasteco Landscape & Lawncare</title>
+        <meta name="description" content="Professional lawn care and maintenance services. Expert mowing, fertilization, and year-round care by skilled professionals." />
+        <meta name="keywords" content="lawn care, lawn maintenance, mowing, fertilization, weed control, landscaping" />
+        <meta property="og:title" content="Lawn Care & Maintenance | Huasteco Landscape & Lawncare" />
+        <meta property="og:description" content="Professional lawn care and maintenance services tailored to your needs." />
         <meta property="og:type" content="website" />
       </Helmet>
       
       <div className="service-page">
         <div className="service-hero">
           <div className="service-hero-background">
-            <img src="https://via.placeholder.com/1920x600/4A5568/FFFFFF?text=Service+One" alt="Service One" />
+            <img src={lawnMowed1} alt="Lawn Care & Maintenance" />
           </div>
           <div className="service-hero-overlay"></div>
           <div className="service-hero-content">
-            <h1>Service One</h1>
-            <p>Description of your first service offering and how it benefits your customers</p>
+            <h1>Lawn Care & Maintenance</h1>
+            <p>Keep your lawn healthy, lush, and beautiful year-round with our professional care</p>
           </div>
         </div>
 
         <div className="container">
           <section className="service-overview">
-            <h2>Professional Service Excellence</h2>
+            <h2>Professional Lawn Care Excellence</h2>
             <p>
-              At [Your Company], we specialize in delivering exceptional service that exceeds your expectations. 
-              Our certified professionals bring years of experience and expertise to ensure you receive the highest quality results.
+              At Huasteco Landscape & Lawncare, we specialize in delivering exceptional lawn care that exceeds your expectations. 
+              Our experienced professionals bring years of expertise to ensure your lawn receives the highest quality care, 
+              keeping it healthy, vibrant, and beautiful throughout every season.
             </p>
           </section>
 
           <section className="service-features">
-            <h2>Our Service Offerings</h2>
+            <h2>Our Lawn Care Services</h2>
             <div className="features-grid">
               <div className="feature-item">
-                <h3>Feature One</h3>
-                <p>Description of the first key feature of this service offering.</p>
+                <h3>Professional Mowing</h3>
+                <p>Regular mowing with precision equipment to maintain optimal grass height and healthy growth.</p>
               </div>
               <div className="feature-item">
-                <h3>Feature Two</h3>
-                <p>Description of the second key feature that sets this service apart.</p>
+                <h3>Fertilization Programs</h3>
+                <p>Customized fertilization schedules to provide your lawn with essential nutrients for thick, green growth.</p>
               </div>
               <div className="feature-item">
-                <h3>Feature Three</h3>
-                <p>Description of the third important aspect of this service.</p>
+                <h3>Weed Control</h3>
+                <p>Effective weed prevention and elimination to keep your lawn pristine and weed-free.</p>
               </div>
               <div className="feature-item">
-                <h3>Feature Four</h3>
-                <p>Description of the fourth benefit customers receive.</p>
+                <h3>Aeration & Seeding</h3>
+                <p>Core aeration and overseeding to improve soil health and fill in thin or bare spots.</p>
               </div>
               <div className="feature-item">
-                <h3>Feature Five</h3>
-                <p>Description of the fifth value-added component of this service.</p>
+                <h3>Seasonal Clean-Up</h3>
+                <p>Spring and fall clean-up services including leaf removal, debris clearing, and bed preparation.</p>
               </div>
               <div className="feature-item">
-                <h3>Feature Six</h3>
-                <p>Description of the sixth element that completes the service offering.</p>
+                <h3>Edging & Trimming</h3>
+                <p>Precise edging and trimming for crisp, clean lines and a polished, professional appearance.</p>
               </div>
             </div>
           </section>
 
           <section className="service-benefits">
-            <h2>Why Choose Us?</h2>
+            <h2>Why Choose Huasteco for Lawn Care?</h2>
             <div className="benefits-list">
               <div className="benefit-item">
-                <h3>Certified Professionals</h3>
-                <p>Our team is certified and trained to ensure professional service standards.</p>
+                <h3>Experienced Professionals</h3>
+                <p>Our team has extensive training and experience in proper lawn care techniques and turf management.</p>
               </div>
               <div className="benefit-item">
-                <h3>Years of Experience</h3>
-                <p>Expertise and proven track record in delivering quality results.</p>
+                <h3>Year-Round Service</h3>
+                <p>Consistent, reliable lawn care throughout all seasons to keep your property looking its best.</p>
               </div>
               <div className="benefit-item">
-                <h3>Quality Products</h3>
-                <p>We work with top brands to ensure you receive the finest products and services.</p>
+                <h3>Quality Equipment & Products</h3>
+                <p>We use professional-grade equipment and premium fertilizers and treatments for superior results.</p>
               </div>
               <div className="benefit-item">
-                <h3>Custom Solutions</h3>
-                <p>Every solution is tailored specifically to your unique needs and preferences.</p>
+                <h3>Custom Care Plans</h3>
+                <p>Every lawn is unique—we create personalized care plans tailored to your lawn's specific needs.</p>
               </div>
             </div>
           </section>
 
           <section className="service-cta">
-            <h2>Ready to Get Started?</h2>
-            <p>Contact us today for a free consultation and let our experts create the perfect solution for you.</p>
+            <h2>Ready for a Beautiful, Healthy Lawn?</h2>
+            <p>Contact us today for a free consultation and let our lawn care experts create the perfect care plan for your property.</p>
             <div className="cta-buttons">
               <Link to="/contact" className="cta-button primary">Get Free Quote</Link>
               <Link to="/services" className="cta-button secondary">View All Services</Link>

@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   border-bottom: 1px solid var(--color-border-primary);
 }
 
@@ -47,13 +47,13 @@
 }
 
 .call-text {
-  color: var(--color-text-primary);
+  color: var(--color-text-on-primary);
   font-weight: 600;
   font-size: 0.9rem;
 }
 
 .call-number {
-  color: var(--color-text-primary);
+  color: var(--color-text-on-primary);
   text-decoration: none;
   font-weight: 700;
   font-size: 1rem;
@@ -113,12 +113,13 @@
 }
 
 .navbar {
-  padding: 1rem 0;
+  padding: 0.75rem 0;
 }
 
 .nav-list {
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -142,7 +143,7 @@
 
 .nav-link.active {
   background-color: var(--color-primary);
-  color: var(--color-text-primary);
+  color: var(--color-text-on-primary);
 }
 
 /* Dropdown Styles */
@@ -157,6 +158,17 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: var(--color-text-primary);
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-primary);
 }
 
 .dropdown-arrow {
@@ -209,7 +221,7 @@
 
 .dropdown-link:hover {
   background-color: var(--color-primary);
-  color: var(--color-text-primary);
+  color: var(--color-text-on-primary);
 }
 
 @media (max-width: 768px) {
@@ -314,8 +326,17 @@
   
   .dropdown-toggle {
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem 2rem;
-    text-align: left;
+    text-align: center;
+    border-bottom: 1px solid var(--color-border-primary);
+    color: var(--color-text-primary);
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  
+  .dropdown-toggle:hover {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-primary);
   }
 }
