@@ -1,0 +1,281 @@
+/*
+  ==========================================
+  QUICK THEME EXAMPLES
+  ==========================================
+  
+  Copy and paste any of these themes into your src/index.css file
+  (replace the existing :root section, starting at line 7)
+  
+  To use: Simply copy the entire :root block below and paste it
+  into src/index.css, replacing the existing :root block.
+*/
+
+/* ==========================================
+   CURRENT THEME: Red & Black (Default)
+   ========================================== */
+:root {
+  --color-primary: #ff0000;
+  --color-primary-dark: #cc0000;
+  --color-primary-light: #ff3333;
+  --color-primary-pale: #ffcccc;
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #333333;
+  --color-bg-tertiary: #111111;
+  --color-bg-card: #1a1a1a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #cccccc;
+  --color-text-tertiary: #999999;
+  --color-text-muted: #666666;
+  --color-border-primary: #333333;
+  --color-border-secondary: #666666;
+  --color-accent-gold: #ffd700;
+  --opacity-overlay: 0.6;
+  --opacity-hover: 0.8;
+  --shadow-primary: rgba(255, 0, 0, 0.3);
+  --shadow-primary-strong: rgba(255, 0, 0, 0.4);
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(255, 0, 0, 0.15) 0%, rgba(20, 20, 20, 0.95) 50%, rgba(255, 0, 0, 0.05) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+
+/* ==========================================
+   THEME 1: Ocean Blue Professional
+   ========================================== */
+:root {
+  --color-primary: #0066ff;
+  --color-primary-dark: #0052cc;
+  --color-primary-light: #3385ff;
+  --color-primary-pale: #cce0ff;
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #1a1a2e;
+  --color-bg-tertiary: #16213e;
+  --color-bg-card: #1a1a1a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b3d9ff;
+  --color-text-tertiary: #8db3d9;
+  --color-text-muted: #667788;
+  --color-border-primary: #2e4057;
+  --color-border-secondary: #4a6380;
+  --color-accent-gold: #ffd700;
+  --opacity-overlay: 0.6;
+  --opacity-hover: 0.8;
+  --shadow-primary: rgba(0, 102, 255, 0.3);
+  --shadow-primary-strong: rgba(0, 102, 255, 0.4);
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(0, 102, 255, 0.15) 0%, rgba(20, 20, 46, 0.95) 50%, rgba(0, 102, 255, 0.05) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+
+/* ==========================================
+   THEME 2: Emerald Green Fresh
+   ========================================== */
+:root {
+  --color-primary: #00d98f;
+  --color-primary-dark: #00b377;
+  --color-primary-light: #33e3a5;
+  --color-primary-pale: #b3f5df;
+  --color-bg-primary: #0a0a0a;
+  --color-bg-secondary: #1a2f1a;
+  --color-bg-tertiary: #152615;
+  --color-bg-card: #1a1a1a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b3f5df;
+  --color-text-tertiary: #8cd9bf;
+  --color-text-muted: #66aa88;
+  --color-border-primary: #2e4d2e;
+  --color-border-secondary: #4d7a4d;
+  --color-accent-gold: #ffd700;
+  --opacity-overlay: 0.6;
+  --opacity-hover: 0.8;
+  --shadow-primary: rgba(0, 217, 143, 0.3);
+  --shadow-primary-strong: rgba(0, 217, 143, 0.4);
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(0, 217, 143, 0.15) 0%, rgba(20, 35, 20, 0.95) 50%, rgba(0, 217, 143, 0.05) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+
+/* ==========================================
+   THEME 3: Royal Purple Luxury
+   ========================================== */
+:root {
+  --color-primary: #9333ea;
+  --color-primary-dark: #7928ca;
+  --color-primary-light: #a855f7;
+  --color-primary-pale: #dfc3f7;
+  --color-bg-primary: #0a0012;
+  --color-bg-secondary: #1e0f3d;
+  --color-bg-tertiary: #160b2e;
+  --color-bg-card: #1a1a1a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #e4c9ff;
+  --color-text-tertiary: #c299ff;
+  --color-text-muted: #8866aa;
+  --color-border-primary: #3d1e5c;
+  --color-border-secondary: #5c2e8a;
+  --color-accent-gold: #ffd700;
+  --opacity-overlay: 0.6;
+  --opacity-hover: 0.8;
+  --shadow-primary: rgba(147, 51, 234, 0.3);
+  --shadow-primary-strong: rgba(147, 51, 234, 0.4);
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(147, 51, 234, 0.15) 0%, rgba(25, 15, 45, 0.95) 50%, rgba(147, 51, 234, 0.05) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+
+/* ==========================================
+   THEME 4: Sunset Orange Energy
+   ========================================== */
+:root {
+  --color-primary: #ff6b35;
+  --color-primary-dark: #d95829;
+  --color-primary-light: #ff8757;
+  --color-primary-pale: #ffd4c1;
+  --color-bg-primary: #0f0705;
+  --color-bg-secondary: #2e1a0f;
+  --color-bg-tertiary: #1f110a;
+  --color-bg-card: #1a1a1a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #ffd4c1;
+  --color-text-tertiary: #ffb896;
+  --color-text-muted: #aa7755;
+  --color-border-primary: #4d2e1f;
+  --color-border-secondary: #7a4d33;
+  --color-accent-gold: #ffd700;
+  --opacity-overlay: 0.6;
+  --opacity-hover: 0.8;
+  --shadow-primary: rgba(255, 107, 53, 0.3);
+  --shadow-primary-strong: rgba(255, 107, 53, 0.4);
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(255, 107, 53, 0.15) 0%, rgba(30, 20, 15, 0.95) 50%, rgba(255, 107, 53, 0.05) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+
+/* ==========================================
+   THEME 5: Cyan Tech Modern
+   ========================================== */
+:root {
+  --color-primary: #00d9ff;
+  --color-primary-dark: #00b3d9;
+  --color-primary-light: #33e1ff;
+  --color-primary-pale: #b3f3ff;
+  --color-bg-primary: #050a0f;
+  --color-bg-secondary: #0f1e2e;
+  --color-bg-tertiary: #0a1520;
+  --color-bg-card: #1a1a1a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b3f3ff;
+  --color-text-tertiary: #7dd9f5;
+  --color-text-muted: #5599aa;
+  --color-border-primary: #1f3d5c;
+  --color-border-secondary: #336688;
+  --color-accent-gold: #ffd700;
+  --opacity-overlay: 0.6;
+  --opacity-hover: 0.8;
+  --shadow-primary: rgba(0, 217, 255, 0.3);
+  --shadow-primary-strong: rgba(0, 217, 255, 0.4);
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(0, 217, 255, 0.15) 0%, rgba(15, 30, 46, 0.95) 50%, rgba(0, 217, 255, 0.05) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+
+/* ==========================================
+   THEME 6: Light Mode Professional
+   ========================================== */
+:root {
+  --color-primary: #0066ff;
+  --color-primary-dark: #0052cc;
+  --color-primary-light: #3385ff;
+  --color-primary-pale: #99c2ff;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-tertiary: #f0f2f5;
+  --color-bg-card: #ffffff;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #4a4a4a;
+  --color-text-tertiary: #6a6a6a;
+  --color-text-muted: #9a9a9a;
+  --color-border-primary: #e0e0e0;
+  --color-border-secondary: #cccccc;
+  --color-accent-gold: #ffa500;
+  --opacity-overlay: 0.85;
+  --opacity-hover: 0.9;
+  --shadow-primary: rgba(0, 102, 255, 0.15);
+  --shadow-primary-strong: rgba(0, 102, 255, 0.25);
+  --shadow-dark: rgba(0, 0, 0, 0.1);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(0, 102, 255, 0.05) 0%, rgba(248, 249, 250, 0.95) 50%, rgba(0, 102, 255, 0.02) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.03), transparent);
+}
+
+
+/* ==========================================
+   THEME 7: Crimson Professional
+   ========================================== */
+:root {
+  --color-primary: #dc143c;
+  --color-primary-dark: #b01030;
+  --color-primary-light: #e63956;
+  --color-primary-pale: #f5b3c3;
+  --color-bg-primary: #0a0203;
+  --color-bg-secondary: #1a0a0d;
+  --color-bg-tertiary: #150608;
+  --color-bg-card: #1a1a1a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #f5b3c3;
+  --color-text-tertiary: #d98899;
+  --color-text-muted: #996677;
+  --color-border-primary: #331a1f;
+  --color-border-secondary: #662e3d;
+  --color-accent-gold: #ffd700;
+  --opacity-overlay: 0.6;
+  --opacity-hover: 0.8;
+  --shadow-primary: rgba(220, 20, 60, 0.3);
+  --shadow-primary-strong: rgba(220, 20, 60, 0.4);
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(220, 20, 60, 0.15) 0%, rgba(20, 10, 13, 0.95) 50%, rgba(220, 20, 60, 0.05) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+
+/* ==========================================
+   THEME 8: Gold Elegance
+   ========================================== */
+:root {
+  --color-primary: #d4af37;
+  --color-primary-dark: #b8942c;
+  --color-primary-light: #ddc053;
+  --color-primary-pale: #f5ead4;
+  --color-bg-primary: #0a0807;
+  --color-bg-secondary: #1a150f;
+  --color-bg-tertiary: #150f0a;
+  --color-bg-card: #1a1a1a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #f5ead4;
+  --color-text-tertiary: #d9c9a3;
+  --color-text-muted: #998866;
+  --color-border-primary: #332e1f;
+  --color-border-secondary: #665533;
+  --color-accent-gold: #ffd700;
+  --opacity-overlay: 0.6;
+  --opacity-hover: 0.8;
+  --shadow-primary: rgba(212, 175, 55, 0.3);
+  --shadow-primary-strong: rgba(212, 175, 55, 0.4);
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(20, 17, 10, 0.95) 50%, rgba(212, 175, 55, 0.05) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+

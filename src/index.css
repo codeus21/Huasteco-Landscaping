@@ -1,0 +1,71 @@
+/* ==========================================
+   CSS CUSTOM PROPERTIES (VARIABLES)
+   ==========================================
+   Change these values to customize the entire website theme!
+*/
+
+:root {
+  /* Primary Brand Colors */
+  --color-primary: #ff0000;           /* Main brand color (red) */
+  --color-primary-dark: #cc0000;      /* Darker shade for hovers */
+  --color-primary-light: #ff3333;     /* Lighter shade for accents */
+  --color-primary-pale: #ffcccc;      /* Very light shade */
+  
+  /* Background Colors */
+  --color-bg-primary: #000000;        /* Main background (black) */
+  --color-bg-secondary: #333333;      /* Secondary background (dark gray) */
+  --color-bg-tertiary: #111111;       /* Tertiary background */
+  --color-bg-card: #1a1a1a;           /* Card backgrounds */
+  
+  /* Text Colors */
+  --color-text-primary: #ffffff;      /* Main text color */
+  --color-text-secondary: #cccccc;    /* Secondary text */
+  --color-text-tertiary: #999999;     /* Tertiary text (muted) */
+  --color-text-muted: #666666;        /* Very muted text */
+  
+  /* Border Colors */
+  --color-border-primary: #333333;    /* Main border color */
+  --color-border-secondary: #666666;  /* Secondary borders */
+  
+  /* Accent Colors */
+  --color-accent-gold: #ffd700;       /* Gold for stars, etc. */
+  
+  /* Opacity Values */
+  --opacity-overlay: 0.6;             /* Overlay darkness */
+  --opacity-hover: 0.8;               /* Hover states */
+  
+  /* Shadow Colors */
+  --shadow-primary: rgba(255, 0, 0, 0.3);
+  --shadow-primary-strong: rgba(255, 0, 0, 0.4);
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  
+  /* Gradient Backgrounds */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(255, 0, 0, 0.15) 0%, rgba(20, 20, 20, 0.95) 50%, rgba(255, 0, 0, 0.05) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+/* ==========================================
+   GLOBAL STYLES
+   ========================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+#root {
+  min-height: 100vh;
+}
