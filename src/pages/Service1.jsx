@@ -1,20 +1,21 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import { useDocumentHead } from '../hooks/useDocumentHead';
 import lawnMowed1 from '../assets/Gallery/LawnMowed1.webp';
 import './ServicePage.css';
 
 const Service1 = () => {
+  useDocumentHead({
+    title: 'Lawn Care & Maintenance | Huasteco Landscape & Lawncare',
+    description: 'Professional lawn care and maintenance services. Expert mowing, fertilization, and year-round care by skilled professionals.',
+    keywords: 'lawn care, lawn maintenance, mowing, fertilization, weed control, landscaping',
+    ogTitle: 'Lawn Care & Maintenance | Huasteco Landscape & Lawncare',
+    ogDescription: 'Professional lawn care and maintenance services tailored to your needs.',
+    ogType: 'website'
+  });
+
   return (
     <>
-      <Helmet>
-        <title>Lawn Care & Maintenance | Huasteco Landscape & Lawncare</title>
-        <meta name="description" content="Professional lawn care and maintenance services. Expert mowing, fertilization, and year-round care by skilled professionals." />
-        <meta name="keywords" content="lawn care, lawn maintenance, mowing, fertilization, weed control, landscaping" />
-        <meta property="og:title" content="Lawn Care & Maintenance | Huasteco Landscape & Lawncare" />
-        <meta property="og:description" content="Professional lawn care and maintenance services tailored to your needs." />
-        <meta property="og:type" content="website" />
-      </Helmet>
       
       <div className="service-page">
         <div className="service-hero">

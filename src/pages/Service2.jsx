@@ -1,20 +1,21 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import { useDocumentHead } from '../hooks/useDocumentHead';
 import lawnMowed3 from '../assets/Gallery/LawnMowed3.webp';
 import './ServicePage.css';
 
 const Service2 = () => {
+  useDocumentHead({
+    title: 'Landscape Design & Installation | Huasteco Landscape & Lawncare',
+    description: 'Professional landscape design and installation services. Custom outdoor designs with beautiful plants, gardens, and features.',
+    keywords: 'landscape design, landscape installation, garden design, outdoor design, landscaping',
+    ogTitle: 'Landscape Design & Installation | Huasteco Landscape & Lawncare',
+    ogDescription: 'Professional landscape design and installation with custom solutions.',
+    ogType: 'website'
+  });
+
   return (
     <>
-      <Helmet>
-        <title>Landscape Design & Installation | Huasteco Landscape & Lawncare</title>
-        <meta name="description" content="Professional landscape design and installation services. Custom outdoor designs with beautiful plants, gardens, and features." />
-        <meta name="keywords" content="landscape design, landscape installation, garden design, outdoor design, landscaping" />
-        <meta property="og:title" content="Landscape Design & Installation | Huasteco Landscape & Lawncare" />
-        <meta property="og:description" content="Professional landscape design and installation with custom solutions." />
-        <meta property="og:type" content="website" />
-      </Helmet>
       
       <div className="service-page">
         <div className="service-hero">

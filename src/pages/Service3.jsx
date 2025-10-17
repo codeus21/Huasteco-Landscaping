@@ -1,20 +1,21 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import { useDocumentHead } from '../hooks/useDocumentHead';
 import cleanup1 from '../assets/Gallery/Cleanup1.webp';
 import './ServicePage.css';
 
 const Service3 = () => {
+  useDocumentHead({
+    title: 'Hardscaping & Outdoor Features | Huasteco Landscape & Lawncare',
+    description: 'Professional hardscaping services including patios, walkways, retaining walls, and outdoor living spaces. Expert installation with quality materials.',
+    keywords: 'hardscaping, patios, walkways, retaining walls, outdoor living, landscaping',
+    ogTitle: 'Hardscaping & Outdoor Features | Huasteco Landscape & Lawncare',
+    ogDescription: 'Professional hardscaping and outdoor feature installation services.',
+    ogType: 'website'
+  });
+
   return (
     <>
-      <Helmet>
-        <title>Hardscaping & Outdoor Features | Huasteco Landscape & Lawncare</title>
-        <meta name="description" content="Professional hardscaping services including patios, walkways, retaining walls, and outdoor living spaces. Expert installation with quality materials." />
-        <meta name="keywords" content="hardscaping, patios, walkways, retaining walls, outdoor living, landscaping" />
-        <meta property="og:title" content="Hardscaping & Outdoor Features | Huasteco Landscape & Lawncare" />
-        <meta property="og:description" content="Professional hardscaping and outdoor feature installation services." />
-        <meta property="og:type" content="website" />
-      </Helmet>
       
       <div className="service-page">
         <div className="service-hero">
