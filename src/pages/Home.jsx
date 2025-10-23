@@ -204,7 +204,7 @@ const Home = () => {
         <div className="hero-content">
           <h1>Transform Your Outdoor Space</h1>
           <p>Professional landscaping and lawn care services you can trust</p>
-          <button className="cta-button">Get Free Quote</button>
+          <Link to="/contact" className="cta-button">Get Free Quote</Link>
         </div>
         
         {/* Slide indicators - only show if more than 1 image */}
