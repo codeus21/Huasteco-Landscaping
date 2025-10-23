@@ -8,5 +8,11 @@ export default defineConfig({
     host: '0.0.0.0', // Allow external connections
     port: 3000, // Set a specific port
     strictPort: true, // Don't try other ports if 3000 is busy
+    historyApiFallback: true, // Enable SPA routing
+  },
+  preview: {
+    host: '0.0.0.0',
+    port: 3000,
+    strictPort: true,
   },
 })
